@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<htm lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Todos los tipos de Inputs en HTML</title>
+</head>
+<body>
+    <div class="container my-4">
+        <h2>Ejemplos de todos los tipos de Inputs en HTML</h2>
+        <br>
+        <form action="" method="get" class="row g-3">
+            
+            <div class="col-md-6">
+                <label for="textInput" class="form-label">Input de texto</label>
+                <input type="text" class="form-control" id="textInput" placeholder="Escribe texto">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="searchInput" class="form-label">Input de búsqueda</label>
+                <input type="search" class="form-control" id="searchInput" placeholder="Buscar...">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="numberInput" class="form-label">Input de número</label>
+                <input type="number" class="form-control" id="numberInput" placeholder="123">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="passwordInput" class="form-label">Input de contraseña</label>
+                <input type="password" class="form-control" id="passwordInput" placeholder="Contraseña">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="emailInput" class="form-label">Input de email</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="telInput" class="form-label">Input de teléfono</label>
+                <input type="tel" class="form-control" id="telInput" placeholder="123-456-7890">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="urlInput" class="form-label">Input de URL</label>
+                <input type="url" class="form-control" id="urlInput" placeholder="https://ejemplo.com">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="dateInput" class="form-label">Input de fecha</label>
+                <input type="date" class="form-control" id="dateInput">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="monthInput" class="form-label">Input de mes</label>
+                <input type="month" class="form-control" id="monthInput">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="weekInput" class="form-label">Input de semana</label>
+                <input type="week" class="form-control" id="weekInput">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="timeInput" class="form-label">Input de hora</label>
+                <input type="time" class="form-control" id="timeInput">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="datetimeLocalInput" class="form-label">Input de fecha y hora local</label>
+                <input type="datetime-local" class="form-control" id="datetimeLocalInput">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="colorInput" class="form-label">Input de color</label>
+                <input type="color" class="form-control form-control-color" id="colorInput" value="#563d7c">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="rangeInput" class="form-label">Input de rango</label>
+                <input type="range" class="form-range" id="rangeInput" min="0" max="100">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="fileInput" class="form-label">Input de archivo</label>
+                <input type="file" class="form-control" id="fileInput">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="imageInput" class="form-label">Input de imagen</label>
+                <input type="image" class="form-control" id="imageInput" style="width: 100px;" src="https://via.placeholder.com/10" alt="Botón de imagen">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="hiddenInput" class="form-label">Input oculto</label>
+                <input type="hidden" id="hiddenInput" value="valor oculto">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="selectInput" class="form-label">Lista desplegable</label>
+                <select class="form-select" id="selectInput">
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="1">Opción 1</option>
+                    <option value="2">Opción 2</option>
+                    <option value="3">Opción 3</option>
+                </select>
+            </div>
+
+            
+            <div class="col-md-6">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkboxInput">
+                    <label class="form-check-label" for="checkboxInput">Checkbox</label>
+                </div>
+            </div>
+
+            
+            <div class="col-md-6">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radioInput1" name="radioGroup">
+                    <label class="form-check-label" for="radioInput1">Radio 1</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radioInput2" name="radioGroup">
+                    <label class="form-check-label" for="radioInput2">Radio 2</label>
+                </div>
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="resetInput" class="form-label">Input de reset</label>
+                <input type="reset" class="form-control btn btn-secondary" id="resetInput" value="Resetear">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="buttonInput" class="form-label">Input de botón</label>
+                <input type="button" class="form-control btn btn-info" id="buttonInput" value="Botón">
+            </div>
+
+            
+            <div class="col-md-6">
+                <label for="textareaInput" class="form-label">Área de texto</label>
+                <textarea class="form-control" id="textareaInput" rows="3" placeholder="Escribe aquí..."></textarea>
+            </div>
+
+            
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-MVZVr2CNsFu81B1CuZmj5x5iXBnZcD0nGr9Ke6hg+8F1shOjA+1gqM0TjMvYBHT2" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <P style="margin-left: 200px;"><b> Derechos Reservados, Autor: Yonar Mendoza</b></P>
+</footer>
+</htm
